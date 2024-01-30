@@ -73,7 +73,6 @@ public class ArrayIntQueue implements IntQueue {
 
     /** {@inheritDoc} */
     public boolean isEmpty() {
-        assert size >= 0;
         return size == 0; // changed from size == 1
     }
 
